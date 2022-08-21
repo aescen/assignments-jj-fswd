@@ -1,0 +1,15 @@
+#daftar-siswa {
+  background-color: gainsboro;
+}
+
+.siswa:first-child {
+  background-color: #60a5fa;
+}
+
+.siswa:last-child {
+  background-color: #f87171;
+}
+
+.siswa:hover {
+  background-color: #e5e7eb;
+}

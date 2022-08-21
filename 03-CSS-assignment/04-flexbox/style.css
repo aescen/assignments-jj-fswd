@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Positiontheimagecontainer(neededtopositiontheleftandrightarrows)*/
+.container {
+  position: relative;
+}
+
+/*Hidetheimagesbydefault*/
+.my-slides {
+  display: none;
+}
+
+/*Addapointerwhenhoveringoverthethumbnailimages*/
+.cursor {
+  cursor: pointer;
+}
+
+/*Next&previousbuttons*/
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 03px3px0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/*Positionthe"nextbutton"totheright*/
+.next {
+  right: 0;
+  border-radius: 3px003px;
+}
+
+/*Onhover,addablackbackgroundcolorwithalittlebitsee-through*/
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Numbertext(1/3etc)*/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px12px;
+  position: absolute;
+  top: 0;
+}
+
+/*Containerforimagetext*/
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Sixcolumnssidebyside*/
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/*Addatransparencyeffectforthumnbailimages*/
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

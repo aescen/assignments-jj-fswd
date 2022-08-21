@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 691942b2f1b682fb6a60f87e873c603b98287551 aescen <ash.putra15@gmail.com> 1654501701 +0700	commit (initial): adding first.txt
+691942b2f1b682fb6a60f87e873c603b98287551 65dfe6b15c18439522b4cebbdec253440e722e62 aescen <ash.putra15@gmail.com> 1654501773 +0700	commit: adding second.txt
+65dfe6b15c18439522b4cebbdec253440e722e62 92831b6ebf45fc49318410cf284d339ed3a5e960 aescen <ash.putra15@gmail.com> 1654501801 +0700	commit: removing first.txt
+92831b6ebf45fc49318410cf284d339ed3a5e960 b159af8fe890fab91116be9f044b1fd144f067f3 aescen <ash.putra15@gmail.com> 1654501921 +0700	commit: First commit
+b159af8fe890fab91116be9f044b1fd144f067f3 3e5477a3ee9b196a30c6fc37c536ad1d62b9cfea aescen <ash.putra15@gmail.com> 1654502974 +0700	merge cv: Merge made by the 'recursive' strategy.
+3e5477a3ee9b196a30c6fc37c536ad1d62b9cfea 20492c2a0cb00e72ba07f09852a0d7d26f9811fb aescen <ash.putra15@gmail.com> 1654503472 +0700	reset: moving to 20492c2
+20492c2a0cb00e72ba07f09852a0d7d26f9811fb ec2842af89e7562f4b1c2aee81f2eb7c5542d790 aescen <ash.putra15@gmail.com> 1654503521 +0700	reset: moving to ec2842a
+ec2842af89e7562f4b1c2aee81f2eb7c5542d790 76cc582ca265d751d1b07a076f2321a5698ca33b aescen <ash.putra15@gmail.com> 1654503749 +0700	merge cv: Merge made by the 'recursive' strategy.
+76cc582ca265d751d1b07a076f2321a5698ca33b c9152701b751a9197bf58bd7ac901a6ce243032f aescen <ash.putra15@gmail.com> 1654503826 +0700	reset: moving to c915270
+c9152701b751a9197bf58bd7ac901a6ce243032f 606e46368524cdc175b52b0c0360680abbb4428a aescen <ash.putra15@gmail.com> 1654503835 +0700	merge cv: Merge made by the 'recursive' strategy.
+606e46368524cdc175b52b0c0360680abbb4428a b159af8fe890fab91116be9f044b1fd144f067f3 aescen <ash.putra15@gmail.com> 1654503865 +0700	reset: moving to b159af8
+b159af8fe890fab91116be9f044b1fd144f067f3 ea7ef9213f63624df9e9de752a42772630d7b696 aescen <ash.putra15@gmail.com> 1654503868 +0700	merge cv: Merge made by the 'recursive' strategy.
+ea7ef9213f63624df9e9de752a42772630d7b696 ea7ef9213f63624df9e9de752a42772630d7b696 aescen <ash.putra15@gmail.com> 1654503906 +0700	Branch: renamed refs/heads/main to refs/heads/main
+ea7ef9213f63624df9e9de752a42772630d7b696 b159af8fe890fab91116be9f044b1fd144f067f3 aescen <ash.putra15@gmail.com> 1654504349 +0700	reset: moving to b159af8
+b159af8fe890fab91116be9f044b1fd144f067f3 f39e341f978e8977fe8dd355b6bed784d42616aa aescen <ash.putra15@gmail.com> 1654504613 +0700	commit: update master pertama
+f39e341f978e8977fe8dd355b6bed784d42616aa 73fc15db95c08e606035cbd424d958926d2c176e aescen <ash.putra15@gmail.com> 1654504631 +0700	merge cv: Merge made by the 'recursive' strategy.
+73fc15db95c08e606035cbd424d958926d2c176e b159af8fe890fab91116be9f044b1fd144f067f3 aescen <ash.putra15@gmail.com> 1654504675 +0700	reset: moving to b159af8
+b159af8fe890fab91116be9f044b1fd144f067f3 13e70e87fa75a047ca2c64015c51032ec0b16efa aescen <ash.putra15@gmail.com> 1654504894 +0700	commit: update master pertama
+13e70e87fa75a047ca2c64015c51032ec0b16efa ced5d9fa5003096c6f0563a7e514ae633a341a42 aescen <ash.putra15@gmail.com> 1654504907 +0700	merge cv: Merge made by the 'recursive' strategy.
+ced5d9fa5003096c6f0563a7e514ae633a341a42 db9bd4dd137f41c3d3ca8a035e87cac873838d03 aescen <ash.putra15@gmail.com> 1654509878 +0700	commit: more-advanced
+db9bd4dd137f41c3d3ca8a035e87cac873838d03 99a6f245744800c8850bfadc92cfe76f2d957085 aescen <ash.putra15@gmail.com> 1654510591 +0700	commit: 05-submit-my-changes

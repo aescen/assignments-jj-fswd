@@ -1,0 +1,68 @@
+1. Apa itu responsive web design?
+
+Responsive Web Design (RWD) adalah tehnik untuk membuat tampilan web
+  dapat menyesuaikan komposisi / layoutnya sesuai perangkat, baik itu
+  desktop, tablet maupun mobile
+
+2. Sebutkan apa saja relative units yang dimiliki oleh CSS?
+
+  - rem: relatif dari ukuran teks pada root element / terluar, height: 3em berarti 3 kali lebih besar dari font pada elemen root
+  - em: relatif dari ukuran teks pada elemen saat ini, width: 1.5em berarti 1.5 kali lebih besar dari font saat ini
+  - vh: relatif dari ukuran viewport height, height: 10vh berarti 10% ukuran tinggi viewport / tinggi tampilan muka web
+  - vw: relatif dari ukuran viewport height, width: 20vw berarti 20% ukuran lebar viewport / lebar tampilan muka web
+  - %: relatif dari ukuran parent element atau induk, width: 30% berarti 30% dari lebar parent element
+
+3. Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+
+ - Breakpoint: titik dimana terjadi perubahan tampilan
+ - Menggunakan media query:
+
+    ```css
+    @media screen and (max-width: 768px) {
+      body {
+        background-color: darkviolet;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      body {
+        background-color: grey;
+      }
+    }
+    ```
+
+  - `@media`: keyword untuk memakai media query
+  - `screen`: mengatur layar
+  - `max-width: 768px`: pada ukuran layar 768px kebawah atau (screen-width)px <= 768
+  - `min-width: 1024px`: pada ukuran layar 1024px ke atas atau (screen-width)px >= 1024
+
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+
+  - text-align untuk ke kiri, tengah atau kanan
+    text-align: right;
+    text-align: center;
+    text-align: left;
+  - float untuk styling ke kiri atau ke kanan
+    float: right;
+    float: left;
+
+5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+
+  - flexbox dapat dipakai untuk memposisikan elemen secara 2D
+
+    .flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .flex-vertical-center {
+      display: flex;
+      align-items: center;
+    }
+
+    .flex-horizontal-center {
+      display: flex;
+      justify-content: center;
+    }
+

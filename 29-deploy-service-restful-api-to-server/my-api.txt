@@ -1,0 +1,24 @@
+# 29-deploy-service-restful-api-to-server
+
+## URL Heroku:
+
+- https://express-auth-beserver.herokuapp.com
+
+## Endpoints
+
+- GET /
+- POST /hewan
+- GET /hewan
+- GET /hewan:id
+- PUT /hewan:id
+- DELETE /hewan:id
+
+### Body
+
+`POST` / `PUT`
+
+{
+  "nama": "string",
+  "namaSpesies": "string",
+  "umur": "int"
+}

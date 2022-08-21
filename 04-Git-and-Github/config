@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/aescen/aescen-04-Git-and-Github.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "05-submit-my-changes/aescen-tech4impact-students-bio"]
+	url = https://github.com/aescen/aescen-tech4impact-students-bio.git
+	active = true
